@@ -1,0 +1,692 @@
+/*
+Theme Name: Motioner Child
+Theme URI: http://alx.media/themes/motioner/
+Template: motioner
+Author: Alexander Agnarson
+Author URI: http://alx.media
+Description: Motioner is a flexible personal blog theme with plenty of options. It is optimized for all devices and built to work with blocks. You can pick accent colors, set sidebar to the left or right and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Motioner
+Tags: blog,news,entertainment,one-column,two-columns,right-sidebar,left-sidebar,custom-colors,custom-menu,featured-images,flexible-header,full-width-template,post-formats,sticky-post,theme-options,threaded-comments,translation-ready,custom-logo,custom-header,custom-background,footer-widgets,wide-blocks
+Version: 1.1.6.1683047831
+Updated: 2023-05-02 19:17:11
+
+*/
+
+.j-user-gain-xp{
+	color : #ef26c4;
+	font-size : 15px;
+	animation: hideAnimation 0s ease-in 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+
+.j-user-plus-xp {
+	position: absolute;
+  top: 10px;
+  left: 5px;
+	font-weight: 700;
+	padding: 2px;
+	color: white ;
+	background:  linear-gradient(to 	right, #005aff , #ff00bb);
+	border-radius: 5px;
+		
+}
+
+.j-user-patch {
+	 position: relative;
+  text-align: center;
+  color: white;
+}
+
+.j-user-bar {
+	margin: 10px 0 10px 0;
+	border : 3px solid white;
+	border-radius: 5px;
+}
+
+.j-user-inner-bar {
+	height: 20px;
+	border-radius: 5px;
+
+	background : linear-gradient(to right, #005aff , #ff00bb);
+	
+}
+
+.j-login-widget .j-login-user{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.j-login-level{
+	font-size: 20px;
+	color: white;
+}
+
+.j-login-twitter-share{
+	font-size: 12px;
+}
+
+.j-login-signout{
+	margin-top: 15px;
+}
+
+.forum-page article{
+	max-width: 1400px;
+}
+
+#user_login, #user_pass{
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.login-username label, .login-password label{
+	color:white;
+}
+
+.login-remember {
+	margin-bottom: 10px;
+}
+
+#mon_widget_de_connexion-2 {
+	color: white;
+	font-weight: 600; 
+}
+
+
+.menu-item-75912 {
+	margin-right: 10% !important;
+}
+
+#footer-thankyou {
+  display:none !important;
+}
+
+.jrpg-video-iframe {
+	width: 100%;
+	height: 30vw;
+}
+
+/* game sheet */ 
+
+.card h3 {
+	color: white ;
+	font-size: 19px;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+.note {
+	padding: 0 !important;
+}
+
+.card {
+  margin-top: 0 !important;
+  padding: 20px;
+  flex: 1;
+    flex-grow: 1;
+    flex-basis: 0%;
+  flex-basis: 100%;
+  flex-grow: 0;
+  height: auto;
+  background: none !important;
+  cursor: pointer;
+  transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  width: 80% !important;
+}
+
+
+
+/* ----- */
+.wp-caption {
+	width: 100% !important;	
+}
+
+/* ------------ */
+
+@media only screen and (max-width: 960px)  {
+.toggle-search .svg-icon, .toggle-search.active #svg-close {
+  fill: white;
+	
+}
+	
+	.card {
+		display: none;
+	}
+}
+
+.entry-header .entry-category {
+	font-weight: 700;
+}
+
+
+ul.partenaires li a i{
+	color: #ef26c4 !important;
+}
+
+ul.partenaires li{
+	
+	margin-bottom : 10px;
+
+}
+
+/* --------------- */
+
+.game-image {
+	width: 50%;
+	position:relative;
+	float:left;
+}
+
+.game-description {
+	width: 50%;
+	display: block;
+	float:left;
+}
+
+@media only screen and (max-width : 768px) {
+	.game-image {
+	width: 100%;
+	position:relative;
+	float:left;
+}
+	
+	.game-item-list {
+		margin: 0 !important;
+		margin-top: 20px !important;
+	}
+
+.game-description {
+	width: 100%;
+	display: block;
+	float:left;
+}
+
+}
+
+
+/* -------------------------- */
+
+.site-title, .toggle-search, .toggle-search.active {
+	
+  background: linear-gradient(90deg, #005aff 0%, #ff00bb 100%);
+	
+}
+
+.site-title a img {
+	max-height: 200px;
+}
+
+.more-link {
+	display: none !important;
+}
+
+.Switch, .PS4, .PC, .PS5, .One, .Android, .ios, .Series {
+	margin : 5px;
+}
+
+.pagination.pagination-lg li {
+  float: left;
+	margin-right: 10px;
+}
+
+#custom_html-9999999998 .ln-block, #custom_html-9999999999 .nn-block{
+	height: 350px;
+}
+
+.page-title.group{
+	display: none;
+}
+
+div#ez-toc-container {
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+	
+}
+
+.entry > :not(.alignfull) {
+  max-width: 1200px;
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+.entry-header, .entry-media, .entry-footer {
+	  max-width: 1200px;
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+
+.size-full, .size-large{
+	width: 100% !important;
+}
+.review-summary-title {
+	display:none;
+}
+
+.site-title {
+	background: linear-gradient(to bottom, #eee 0%,#fff 100%);
+}
+
+@media only screen and (max-width: 960px){
+	.site-description, .s2 .social-links {
+		background: white;
+}
+}
+
+.search-expand {
+	background: none !important;
+}
+
+.wp-post-image {
+	width: 100%;
+}
+
+.site-title {
+	background: white;
+	color: black !important;
+}
+
+#svg-search {
+	color: black !important;
+}
+
+.nav-menu:not(.mobile) {
+	border: none;
+	background: white;
+}
+
+.type-list-title a , .type-list-title a:hover {
+  box-shadow: none;
+}
+
+.searchandfilter {
+	padding-top: 16px;
+	float:right;
+}
+
+form input[type=submit] {
+  float: left;
+  padding: 10px;
+  background: #ff00bb;
+  color: white;
+  font-size: 17px;
+  border: 0px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form [type=submit]:hover {
+  background: #ff00bb;
+}
+
+form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.search-element{
+	background: none !important;
+}
+
+@media only screen and (max-width: 479px){
+	form input[type=text] {
+		width: 120px;
+	}
+}
+
+.entry ul li, .entry ol ul li {
+  list-style: square;
+}
+
+.entry #review .review-desc ul:first-child {
+	 margin-bottom : 20px !important;
+	 list-style: none !important;
+   margin-left: 0;
+   padding-left: 1em;
+   text-indent: -1em;
+}
+
+.entry .review-desc ul {
+	 margin-bottom : 20px !important;
+	 list-style: none !important;
+   margin-left: 0;
+   padding-left: 1em;
+   text-indent: -1em;
+}
+
+.review-desc ul:first-child li:before {
+  content: "+";
+  padding-right: 5px;
+}
+
+
+.review-desc ul li:before {
+  content: "-";
+  padding-right: 5px;
+}
+
+.review-desc ul:first-child li{
+	color: #ff00bb; 
+	list-style: none;
+	
+}
+
+.review-desc ul li{
+	color: #005aff; 
+	list-style: none;
+	font-weight: bolder;
+	
+}
+
+.review-total-box{
+	font-size: 4em !important;
+}
+
+.entry .wp-caption {
+  background: none;
+}
+
+.video-container{
+	margin-bottom : 20px;
+}
+
+.wpcf7-form p {
+	margin-bottom : 20px;
+}
+
+.wpcf7-form input[type=text] {
+	width: 100%;
+}
+
+
+.wpcf7-form input[type=email] {
+	width: 100%;
+}
+.wpcf7-form textarea {
+	width: 100%;
+}
+
+footer a {
+	color : #ff00bb !important;
+}
+
+ul.article.social-links {
+	position: relative;
+	z-index: 2;
+	color: red !important;
+	float: none;
+	margin: 0;
+	padding : 0;
+}
+
+.sd-title{
+	font-size : 1rem !important;
+	font-weight : 600 !important;
+	text-transform: uppercase;
+}
+
+.entry-category, .type-list-category {
+	text-transform : uppercase;
+}
+
+.review-wrapper {
+	border: none;
+}
+
+p.rev-note {
+
+	font-size : 2rem;
+	font-weight: bolder;
+	margin-bottom : 20px;
+	margin-left : 20px;
+	float: right;
+	color: #ff00bb;
+
+}
+p.rev-note:after {
+	content : "/10"
+}
+
+
+#wpdcom {
+	max-width : 100%;
+}
+
+.test-type {
+	background: black;
+	color : white !important;
+}
+
+.test-type h2 a{
+	color : white !important;
+}
+
+.test-type .type-list-excerpt{
+	color : white !important;
+}
+
+.edito-type {
+	background: #16004d;
+	color : white !important;
+}
+
+.edito-type h2 a{
+	color : white !important;
+}
+
+.edito-type .type-list-excerpt{
+	color : white !important;
+}
+
+.jdx-type {
+	background: #4d0043;
+	color : white !important;
+}
+
+.jdx-type .type-list-date, .edito-type .type-list-date, .test-type .type-list-date{
+	color : white;
+}
+
+.jdx-type .type-list-date a, .edito-type .type-list-date a, .test-type .type-list-date a{
+	color : white;
+}
+
+.jdx-type h2 a{
+	color : white !important;
+}
+
+.jdx-type .type-list-excerpt{
+	color : white !important;
+}
+
+.edito-type .type-list-center, .test-type .type-list-center, .jdx-type .type-list-center{
+  border-right: 0;
+  border-left: 0;
+}
+
+.twitter-tweet {
+	margin-left : auto !important;
+	margin-right : auto !important;
+	width: 100% !important;
+}
+
+.note-on-list, .ln-date, .nn-date{
+	color: #ff00bb;
+	float: left;
+	margin-right: 5px;
+	font-weight: 900;
+	font-size: 1rem;
+}
+
+ul.lcp_catlist li a{
+	display: block;
+	max-width: 11rem !important;	
+}
+
+img.size-full {
+	width: 100%;
+}
+
+p.chapot {
+	font-size: 1.4rem;
+	padding : 20px;
+	background: #f5f5f5;
+	border-radius: 10px ;
+}
+.front-widgets.group {
+	text-align: center;
+}
+.front-widget-col {
+  width: 100%;
+  float: left;
+}
+
+.front-widget-inner {
+  margin-right: 0px;
+}
+
+.masgrid div{
+	cursor: pointer;
+}
+
+.masgrid{
+	font-size: 19px;
+	color: white;
+	font-weight: 800 !important;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.hl-content {
+	margin-top: 10px;
+}
+
+.hl-content {
+	height: 110px !important;
+	background: rgba(255,255,255,0.75) !important;
+}
+
+.hl-content h2 { 
+	font-size: 20px;
+	color: black;
+	font-weight: 600;
+	padding: 10px;
+}
+
+@media (max-width:430px) {
+	
+	.front-widgets.group{
+		display: none;
+	}
+	form input[type="text"] {
+	width: 147px;
+}
+		form input[type="submit"] {
+			float: left;
+			position: relative;
+			display: block;
+}
+	
+.searchandfilter {
+  text-align: left;
+	
+
+}
+}
+
+.easy-image-gallery a img{
+	border-radius: 0 !important;
+	width: 158px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.easy-image-gallery {
+	text-align: center;
+	margin: 0 !important;
+}
+
+.lcp_catlist li {
+	margin-bottom: 20px;
+}
+
+.lcp_catlist li:last-of-type{
+	border-bottom: none;
+}
+
+.page-item.disabled a{
+	color : #ff00bb;
+}
+
+.type-list-category {
+	display: flex;
+  flex-wrap: wrap;
+}
+
+a.category.tag {
+	margin-right: 5px !important;
+	margin-bottom: 10px !important;
+	color: white !important;
+	background : #ef26c4;
+  padding: 3px;
+	border-radius: 5px;
+	font-size: 0.8rem;
+}
+
+
+
+
+.cat-ps4, 
+.cat-ps5, .PS4, .PS5{
+	background : #003087 !important;
+}
+
+.cat-xbox-one, 
+.cat-xbox-series, .One, .Series, .xbox.one, .xbox.series{
+	background : green !important;
+}
+
+.cat-pc, .cat-ios, .cat-android, .PC {
+	background : black !important;
+}
+
+.cat-switch, .Switch {
+	background : red !important;
+}
+
+.masgrid .item:hover{
+   -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+	z-index: 9999999;
+	    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.menu-item-wrapper span, .menu-item-wrapper a span.xbox.one, .menu-item-wrapper a span.xbox.series{
+	background: none !important;
+}
+
+.entry-category {
+	padding : 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
