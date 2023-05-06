@@ -411,3 +411,9 @@ function custom_motioner_related_posts()
 	$query = !isset($break) ? new WP_Query($args) : new WP_Query;
 	return $query;
 }
+
+function add_cors_http_header(){
+    header("Access-Control-Allow-Origin: *");
+}
+
+add_action("init","add_cors_http_header");

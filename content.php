@@ -1,7 +1,7 @@
 <?php $format = get_post_format(); ?>
 
 <?php
-$note = wp_review_get_review_total(get_the_ID());
+$note = get_post_meta(get_the_ID(), 'review_rating', true);
 $note = (floatval($note) > 0) ? $note : '';
 $testClass = (floatval($note) > 0) ? 'test-type' : '';
 
@@ -20,9 +20,7 @@ foreach ($category_detail as $cd) {
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
     <div class="article-type-list group <?php echo $testClass ?>">
-
         <?php if (has_post_thumbnail()) : ?>
             <div class="type-list-left">
                 <a class="type-list-thumbnail" href="<?php the_permalink(); ?>">
@@ -39,8 +37,8 @@ foreach ($category_detail as $cd) {
         <div class="type-list-center <?php if (!has_post_thumbnail()) : ?>no-thumb<?php endif; ?>">
             <div class="type-list-content">
                 <h2 class="type-list-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-                <?php $note = wp_review_get_review_total(get_the_ID());
-                if (floatval($note) > 0) :
+                <?php $note = get_post_meta(get_the_ID(), 'review_rating', true);
+                if ($note) :
                 ?>
                     <p class="rev-note"><?php echo $note ?></p>
                 <?php endif; ?>
