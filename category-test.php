@@ -5,7 +5,7 @@
 $query_args = array(
     'post_type' => 'post',
     'category_name' => 'test',
-    'posts_per_page' => 5,
+    'posts_per_page' => -1,
 );
 
 if (isset($_POST['s_genre']) || isset($_POST['s_console']) || isset($_POST['s_name'])) {
