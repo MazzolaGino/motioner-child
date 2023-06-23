@@ -163,7 +163,7 @@ $query = new WP_Query($query_args);
                                             <?php while ($query->have_posts()) : $query->the_post(); ?>
                                                 <tr>
                                                     <td><a href="<?= get_permalink(get_the_ID()) ?>"><?= get_the_title() ?></a></td>
-                                                    <td><?= get_post_meta(get_the_ID(), 'wp_review_total', true) ?></td>
+                                                    <td><?= get_post_meta(get_the_ID(), 'review_rating', true) ?></td>
                                                 </tr>
                                             <?php endwhile; ?>
                                         </tbody>
